@@ -11,7 +11,7 @@ API_HASH = "b56082f4d86578c5a6948c7b964008f9"
 SESSION_STRING = os.getenv("SESSION_STRING") 
 
 SOURCE_CHANNELS = [
-    "@uzdavgeolcom", "@shmirziyoyev", "@ozbekiston24", "@senatuz", 
+    "@uzdavgeolcom", "@shmirziyoyev", "@senatuz", 
     "@adliyangiliklari", "@ao_agmk", "@ngmkofficial",
     "@huquqiyaxborot", "@xavfsizlik_uz", "@antikor_uzb", 
     "@Rasmiy_xabarlar_Official", "@SShMirziyoyeva",
@@ -48,4 +48,5 @@ if __name__ == "__main__":
     try:
         loop.run_until_complete(main())
     except KeyboardInterrupt:
+
         pass
