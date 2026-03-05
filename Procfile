@@ -1,1 +1,1 @@
-worker: python kontexnazoratnews.py
+worker: python main.py
