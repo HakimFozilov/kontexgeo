@@ -12,9 +12,8 @@ SESSION_STRING = os.getenv("SESSION_STRING")
 
 SOURCE_CHANNELS = [
     "@uzdavgeolcom", "@shmirziyoyev", "@senatuz", 
-    "@adliyangiliklari", "@ao_agmk", "@ngmkofficial",
-    "@huquqiyaxborot", "@xavfsizlik_uz", "@antikor_uzb", 
-    "@Rasmiy_xabarlar_Official", "@SShMirziyoyeva",
+    "@adliyangiliklari", "@huquqiyaxborot", "@xavfsizlik_uz", "@antikor_uzb", 
+    "@SShMirziyoyeva",
 ]
 TARGET_CHANNEL = "@kontexnazorat"
 
@@ -50,3 +49,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
 
         pass
+
