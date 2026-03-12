@@ -10,9 +10,8 @@ API_HASH = "b56082f4d86578c5a6948c7b964008f9"
 SESSION_STRING = os.getenv("SESSION_STRING") 
 
 SOURCE_CHANNELS = [
-    "@uzdavgeolcom", "@shmirziyoyev", "BSA_uz", 
-    "@adliyangiliklari", "@huquqiyaxborot", "@xavfsizlik_uz", "@antikor_uzb", 
-    "@SShMirziyoyeva",
+    "@uzdavgeolcom", "@shmirziyoyev",  
+    "@huquqiyaxborot", "@xavfsizlik_uz", "@antikor_uzb", 
 ]
 TARGET_CHANNEL = "@kontexnazorat"
 
@@ -56,3 +55,4 @@ if __name__ == "__main__":
         loop.run_until_complete(main())
     except KeyboardInterrupt:
         pass
+
